@@ -33,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
             [
                 'format' => 'raw',
                 'value' => function ($model, $key, $index, $column) {
-                    /** @var $model common\models\Image */
+                    
                     return Html::img($model->getUrl());
                 }
             ],

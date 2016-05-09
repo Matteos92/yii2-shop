@@ -4,7 +4,7 @@ use yii\widgets\ListView;
 use yii\widgets\Menu;
 
 /* @var $this yii\web\View */
-$title = $category === null ? 'Welcome!' : $category->title;
+$title = $category === null ? 'Witaj!' : $category->title;
 $this->title = Html::encode($title);
 ?>
 

@@ -32,7 +32,7 @@ AppAsset::register($this);
                 ],
             ]);
             $menuItems = [
-                ['label' => 'Website', 'url' => '/'],
+                ['label' => 'Website', 'url' => 'http://yii2.local'],
                 ['label' => 'Categories', 'url' => ['/category/index']],
                 ['label' => 'Products', 'url' => ['/product/index']],
                 ['label' => 'Orders', 'url' => ['/order/index']]
